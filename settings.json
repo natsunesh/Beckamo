@@ -1,0 +1,8 @@
+{
+  "SourceConnectionString": "Host=localhost;Port=5432;Database=Beckamo;Username=postgres;Password=123456;",
+  "TargetFilePathTemplate": "backups/{db}/{table}_{timestamp}.sql.enc",
+  "IncludedDatabases": [ "Beckamo" ],
+  "IncludedTables": [ "users" ],
+  "UseEncryption": false,
+  "EncryptionPassword": "topsecret"
+}
