@@ -43,3 +43,4 @@ public class LocalTargetStorageService : ITargetStorageService
             _logger.Warning("Файл не найден для переноса: {source}", sourcePath);
         }
     }
+}
